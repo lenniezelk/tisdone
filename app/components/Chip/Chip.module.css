@@ -1,0 +1,18 @@
+.chip {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 1.5rem;
+  font-size: 0.8125rem;
+  margin-right: 0.3125rem;
+  margin-top: 0.125rem;
+  max-width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.delete {
+  margin-left: 0.5rem;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 50px;
+}

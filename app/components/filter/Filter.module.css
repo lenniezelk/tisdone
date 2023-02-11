@@ -1,0 +1,32 @@
+.container {
+  border-bottom: 0.5px solid var(--text-color);
+  padding-bottom: 1rem;
+}
+
+.doneCategories {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.done {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+
+.categories {
+  margin-left: 1rem;
+  flex-basis: 50%;
+  border-radius: var(--border-radius);
+}
+
+.categorySelect {
+  width: 100%;
+  padding: 0.125rem;
+}
+
+.categoryOption {
+  color: var(--text-color);
+  font-size: 0.85rem;
+}
