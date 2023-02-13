@@ -1,4 +1,5 @@
 import { Category } from '@/app/types';
+import Button from '../button/Button';
 import styles from './Filter.module.css';
 
 const categories: Category[] = [
@@ -12,7 +13,11 @@ const categories: Category[] = [
 export default function Filter() {
   return (
     <div className={styles.container}>
-      <input type="text" placeholder="Search" />
+      <div className={styles.search}>
+        <input type="text" placeholder="Search" />
+        <Button color="primary">Search</Button>
+        <Button color="primary">Clear</Button>
+      </div>
       <div className={styles.doneCategories}>
         <div className={styles.done}>
           <label>
@@ -43,6 +48,9 @@ export default function Filter() {
             })}
           </select>
         </div>
+      </div>
+      <div className={styles.buttonBar}>
+        <Button color="primary">Apply Filters</Button>
       </div>
     </div>
   );

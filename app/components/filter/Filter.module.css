@@ -30,3 +30,17 @@
   color: var(--text-color);
   font-size: 0.85rem;
 }
+
+.buttonBar {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search {
+  display: flex;
+}
+
+.search button {
+  margin-left: 0.5rem;
+}

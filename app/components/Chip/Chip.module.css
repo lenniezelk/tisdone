@@ -8,6 +8,8 @@
   max-width: 100px;
   text-overflow: ellipsis;
   overflow: hidden;
+  box-shadow: 1px 1px 1px var(--text-color);
+  color: #fff;
 }
 
 .delete {

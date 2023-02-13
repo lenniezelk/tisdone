@@ -1,0 +1,34 @@
+.list {
+  list-style-type: none;
+  margin-top: 1rem;
+  min-height: 12.5rem;
+  overflow-y: auto;
+}
+
+.list li {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-bottom: 0.25px solid var(--text-color);
+}
+
+.list li:last-of-type {
+  border-bottom: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls button {
+  margin-left: 8px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.categories {
+  margin: 0.5rem 0;
+}
